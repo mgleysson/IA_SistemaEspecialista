@@ -12,5 +12,15 @@ public class MotorInferencia {
 		
 	*/
 	
+	public void startMachine() {
+		
+		// Teste para ver se cadastrou as 64 variáveis existentes
+		
+		BaseDados baseDados = new BaseDados();
+		baseDados.criarBase();
+		System.out.println(baseDados.listaVariaveis.size());
+		
+	}
+	
 
 }
